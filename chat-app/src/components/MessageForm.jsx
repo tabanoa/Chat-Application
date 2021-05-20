@@ -4,7 +4,7 @@ import {SendOutlined, PictureOutlined} from "@ant-design/icons"
 
 const MessageForm = (props) => {
     const [value, setValue] = useState('');
-    const [chatId, creds] = props;
+    const { chatId, creds } = props;
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -27,7 +27,7 @@ const MessageForm = (props) => {
     }
 
     return (
-        <form className="message-form" onsubmit={handleSubmit}>
+        <form className="message-form" onSubmit={handleSubmit}>
             <input
                 className="message-input"
                 placeholder="Send a message"
