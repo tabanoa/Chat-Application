@@ -1,3 +1,3 @@
 # Chat-Application
 Chat Application Using React Js
-![Chat Demo](src/Screenshots/ChatRoom.png)
+![Chat Demo](Chat-Application/chat-app/src/Screenshots/ChatRoom.png)
